@@ -1,0 +1,118 @@
+/**
+  * Contenedor principal de toda la página
+  * y menús de navegación
+  */
+.la-columna-principal {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.el-header-01 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.el-header-02 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.el-header-03 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.el-banner-para-en-vivo {
+  display: flex;
+  flex-direction: row;
+
+  color: red
+}
+/**
+  * Contenido principal antes del banner de 5 videos
+  */
+.el-contenido-de-noticias {
+  display: flex;
+  flex-direction: row;
+
+  border: 2px solid blue;
+}
+
+.col-1-noticia-texto {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 65vw;
+  border: 2px solid black;
+}
+
+.col-2-noticia-destacados {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 30vw;
+  border: 2px solid black;
+}
+
+.row-section-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-noticias {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 25vw;
+}
+
+.row-noticia-grande {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-noticia-pequenia {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-imagenes {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 50vw;
+}
+
+.row-banner-disruptivo {
+  display: flex;
+  flex-direction: row;
+}
+
+.el-banner-de-5-videos {
+  display: flex;
+  flex-direction: row;
+
+  border: 2px solid red;
+}
+
+.video-1 {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 19vw;
+}
+
+/**
+ * Utils
+ */
+hr {
+  border: none; /* Removes default border/shadow */
+  height: 2px; /* Sets the thickness of the line */
+  background-color: #aeaeae; /* Sets the color */
+  width: 90%; /* Sets the width (default is 100%) */
+  margin: 2px auto; /* Centers the line and adds vertical spacing */
+}
