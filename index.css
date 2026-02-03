@@ -129,3 +129,7 @@ hr {
   width: 90%; /* Sets the width (default is 100%) */
   margin: 2px auto; /* Centers the line and adds vertical spacing */
 }
+
+.menu-item {
+  margin-right: 15px;
+}
