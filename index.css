@@ -8,14 +8,37 @@
   
 }
 
-.el-header-01 {
+.row-header-01 {
   display: flex;
   flex-direction: row;
 
+}
+
+.col-header-lupa {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: auto;
+  justify-content: start;
+}
+
+.col-header-regiones {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: auto;
   justify-content: center;
 }
 
-.el-header-02 {
+.col-header-botones {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: end;
+  background-color: yellow;
+}
+
+.row-header-02 {
   display: flex;
   flex-direction: row;
 
@@ -25,7 +48,7 @@
   padding-bottom: 20px;
 }
 
-.el-header-03 {
+.row-header-03 {
   display: flex;
   flex-direction: row;
 
@@ -34,7 +57,7 @@
   padding-bottom: 10px;
 }
 
-.el-banner-para-en-vivo {
+.row-banner-para-en-vivo {
   display: flex;
   flex-direction: row;
 
