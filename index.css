@@ -28,6 +28,8 @@
   flex-direction: row;
 
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .el-banner-para-en-vivo {
@@ -36,7 +38,12 @@
 
   color: red;
   justify-content: center;
-  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 /**
   * Contenido principal antes del banner de 5 videos
